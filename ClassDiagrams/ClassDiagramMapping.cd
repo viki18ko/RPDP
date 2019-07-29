@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RPDP.RepositoryLibrary.Mapping.AmountCarMap">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryLibrary\Mapping\AmountCarMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPDP.RepositoryLibrary.Mapping.CarMap">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryLibrary\Mapping\CarMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPDP.RepositoryLibrary.Mapping.ClassDriverMap">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryLibrary\Mapping\ClassDriverMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPDP.RepositoryLibrary.Mapping.EmployeeMap">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryLibrary\Mapping\EmployeeMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPDP.RepositoryLibrary.Mapping.MyForeignKeyConvention">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>RepositoryLibrary\Mapping\MyForeignKeyConvention.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPDP.RepositoryLibrary.Mapping.NameMap">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryLibrary\Mapping\NameMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPDP.RepositoryLibrary.Mapping.PositionMap">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryLibrary\Mapping\PositionMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

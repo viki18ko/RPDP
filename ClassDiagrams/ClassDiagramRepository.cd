@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RPDP.RepositoryLibrary.Repository.SessionFactory">
+    <Position X="11.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryLibrary\Repository\SessionFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPDP.RepositoryLibrary.Repository.Implementation.BaseRepository&lt;T&gt;">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAACAAAAAAAAAAAABAEAAAAQAgBAgAAAAIA=</HashCode>
+      <FileName>RepositoryLibrary\Repository\Implementation\BaseRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPDP.RepositoryLibrary.Repository.Implementation.AmountCarRepository">
+    <Position X="11.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAABAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryLibrary\Repository\Implementation\AmountCarRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPDP.RepositoryLibrary.Repository.Implementation.CarRepository">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIAAAAAAAAAAFAACAAAABAAABAQAEAiQAAAACAAAIAA=</HashCode>
+      <FileName>RepositoryLibrary\Repository\Implementation\CarRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPDP.RepositoryLibrary.Repository.Implementation.ClassRepository">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAABAAAAAAAAIAAAAACAAA=</HashCode>
+      <FileName>RepositoryLibrary\Repository\Implementation\ClassRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPDP.RepositoryLibrary.Repository.Implementation.EmployeeRepository">
+    <Position X="14.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQABAAAAACkABAAAAAAIAADgAGAgAgAgAAAAAAAgA=</HashCode>
+      <FileName>RepositoryLibrary\Repository\Implementation\EmployeeRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPDP.RepositoryLibrary.Repository.Implementation.PositionRepository">
+    <Position X="16.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAEIAAAAAAABAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>RepositoryLibrary\Repository\Implementation\PositionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPDP.RepositoryLibrary.Repository.Implementation.RegistrarRepository">
+    <Position X="2.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAACAAAAAAAAIAABAEABAAAAEAAAAAAAAFAAAA=</HashCode>
+      <FileName>RepositoryLibrary\Repository\Implementation\RegistrarRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPDP.RepositoryLibrary.Repository.Implementation.RouteRepository">
+    <Position X="9.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAQAQAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryLibrary\Repository\Implementation\RouteRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPDP.RepositoryLibrary.Repository.Implementation.TrainRepository">
+    <Position X="14" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAAAAYAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryLibrary\Repository\Implementation\TrainRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPDP.RepositoryLibrary.Repository.Implementation.TypeCarRepository">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAEBAAAAAAAAAgABAAAAAA=</HashCode>
+      <FileName>RepositoryLibrary\Repository\Implementation\TypeCarRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPDP.RepositoryLibrary.Repository.Implementation.TypeRegistrarRepository">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIEAAAAAAEAAAAABAAAAAAABAIAAAAgAAA=</HashCode>
+      <FileName>RepositoryLibrary\Repository\Implementation\TypeRegistrarRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="RPDP.RepositoryLibrary.Repository.Interfaces.IRepository&lt;T&gt;">
+    <Position X="7" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAEAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>RepositoryLibrary\Repository\Interfaces\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

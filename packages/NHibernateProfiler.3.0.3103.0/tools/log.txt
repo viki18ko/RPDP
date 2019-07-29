@@ -1,0 +1,32 @@
+2016-05-31 18:50:28,477 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Profiler initialized. Build: 3103
+2016-05-31 18:50:40,415 [1] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - Could not find license file: C:\Users\Korg\AppData\Local\NHibernate Profiler\license.xml
+2016-05-31 18:55:24,359 [20] DEBUG HibernatingRhinos.Profiler.BackEnd.OpenFileProcessor [(null)] - Need to display in VS: C:\Users\Korg\Desktop\Оригинал программа\RPDP\RepositoryLibrary\Repository\Implementation\BaseRepository.cs
+2016-05-31 18:55:25,484 [20] WARN  HibernatingRhinos.Profiler.BackEnd.OpenFileProcessor [(null)] - Trying to ask nicely from VS to activate has failed, trying to use SetForegroundWindow for the task
+2016-05-31 18:55:25,489 [20] DEBUG HibernatingRhinos.Profiler.BackEnd.OpenFileProcessor [(null)] - SetForegroundWindow returned: False
+2016-05-31 19:06:22,235 [14] FATAL HibernatingRhinos.Profiler.Client.HandleUnhandledExceptions [(null)] - Unhandled exception ruthlessly killed application
+System.Reflection.TargetInvocationException: Адресат вызова создал исключение. ---> System.InvalidOperationException: Вызывающим потоком должен быть STA, поскольку этого требуют большинство компонентов UI.
+   в System.Windows.Input.InputManager..ctor()
+   в System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   в System.Windows.Input.KeyboardNavigation..ctor()
+   в System.Windows.FrameworkElement.FrameworkServices..ctor()
+   в System.Windows.FrameworkElement.EnsureFrameworkServices()
+   в System.Windows.FrameworkElement..ctor()
+   в System.Windows.Controls.Control..ctor()
+   в HibernatingRhinos.Profiler.Client.Licensing.LicensePromptView..ctor()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   в System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   в System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   в System.Activator.CreateInstance(Type type)
+   в Caliburn.Micro.ViewLocator.<.cctor>b__2(Type viewType)
+   в Caliburn.Micro.ViewLocator.<.cctor>b__a(Object model, DependencyObject displayLocation, Object context)
+   в Caliburn.Micro.WindowManager.CreateWindow(Object rootModel, Boolean isDialog, Object context, IDictionary`2 settings)
+   в Caliburn.Micro.WindowManager.ShowDialog(Object rootModel, Object context, IDictionary`2 settings)
+   в HibernatingRhinos.Profiler.Client.Controls.Dialog.Show(Object model, Object context, Boolean windowWithFullLogo)
+   в HibernatingRhinos.Profiler.Client.Licensing.LicenseInformationModel.PromptUserForLicenseFile(String reason, Boolean isCanRequestTrial, Boolean isCanRequestTrialExtend)
+   в HibernatingRhinos.Profiler.Client.Services.InitialTrialService.ValidateThatUserInTrialTime()
+   в System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.TimerQueueTimer.CallCallback()
+   в System.Threading.TimerQueueTimer.Fire()
+   в System.Threading.TimerQueue.FireNextTimers()
